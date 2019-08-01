@@ -10,7 +10,8 @@ namespace HotReloadCodeBehind
         {
             InitializeComponent();
 
-            MainPage = new MainPage();
+            //MainPage = new MainPage();
+            MainPage = new MainXamlPage();
         }
 
         protected override void OnStart()
